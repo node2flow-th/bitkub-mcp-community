@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "bitkub-mcp-community"
+main = "dist/worker.js"
+compatibility_date = "2025-01-01"
+
+[observability]
+enabled = true
+
+[[routes]]
+custom_domain = "bitkub-mcp-community.node2flow.net"
