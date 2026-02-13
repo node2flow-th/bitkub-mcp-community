@@ -7,4 +7,5 @@ compatibility_date = "2025-01-01"
 enabled = true
 
 [[routes]]
-custom_domain = "bitkub-mcp-community.node2flow.net"
+pattern = "bitkub-mcp-community.node2flow.net"
+custom_domain = true
