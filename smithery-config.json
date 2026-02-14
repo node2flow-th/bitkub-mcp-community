@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "BITKUB_API_KEY": {
+      "type": "string",
+      "description": "Bitkub API key (optional for market data, required for trading)"
+    },
+    "BITKUB_SECRET_KEY": {
+      "type": "string",
+      "description": "Bitkub Secret key for HMAC SHA-256 signing (required for trading)"
+    }
+  }
+}

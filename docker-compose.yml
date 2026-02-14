@@ -1,0 +1,9 @@
+services:
+  bitkub-mcp-community:
+    build: .
+    container_name: bitkub-mcp-community
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3027:3000"
+    mem_limit: 512m
+    mem_reservation: 256m
